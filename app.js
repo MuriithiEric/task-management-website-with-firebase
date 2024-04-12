@@ -12,7 +12,7 @@ function addTask() {
   const taskInput = document.getElementById("task-input");
   const task = taskInput.value.trim();
   if (task !== "") {
-    db.collection("tasks").add({
+    db.collection("tasks!").add({
       task: task,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
