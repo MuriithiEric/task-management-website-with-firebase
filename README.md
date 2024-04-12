@@ -35,7 +35,7 @@ This is a simple task management website that allows users to add, delete, and u
 9. Mark tasks as completed
 10. Log out of the website
 11. View the changes in the Firebase Firestore database
-12. Enjoy the task management website!
+12. Enjoy the task management website
     
 
 ## Note
